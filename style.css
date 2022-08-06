@@ -1,0 +1,73 @@
+body {
+    background-color: black !important;
+}
+.link-nav{
+    font-weight: 800;
+}
+
+.link-nav:hover{
+    border-bottom: #c40000 solid 4px;
+    transition: all 0.3s ease-out;
+}
+
+.wel-come{
+    font-size: 3em;
+    font-weight: 800;
+    color: #c40000;
+    /* tr
+    
+    ansform:rotate(90deg) */
+}
+
+/* center div elements */
+.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    margin-right: 5rem;
+}
+
+.about-img {
+    display: block;
+    margin: 0 auto 0 auto; /* Centred */
+    width: auto;
+    height: auto;
+  }
+  
+  /* Layout For Larger Screens */
+  @media screen and (min-width: 40em) {
+    .about-img {
+      padding: 0 2em 0 2em;
+      width: 66.6%;
+    }
+  }
+
+  .uk-active{
+    color: #c40000 solid 4px !important;; 
+    transition: all 0.3s ease-out !important;
+  } 
+
+/* .about{
+    height: 100vh;
+} */
+.about-row{
+    height:-webkit-fill-available;
+}
+
+.mt-md-5{
+    margin-top: 10rem;
+}
+.base-div-about{
+    background-color: #000000 !important;
+    height: 100vh;
+}
