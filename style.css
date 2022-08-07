@@ -71,3 +71,34 @@ body {
     background-color: #000000 !important;
     height: 100vh;
 }
+
+.img {
+    display: block;
+    margin: 0 auto 0 auto; /* Centred */
+    width: auto;
+    height: auto;
+  }
+
+/* all images same size and responsive */
+
+.img-skill {
+    max-inline-size: 100%;
+    block-size: auto;
+    inline-size: 100%;
+  }
+
+.img{
+    height: 8rem;
+}
+
+.border-card{
+    border-left: #c40000 solid 8px;
+    border-radius: 10px;
+}
+
+/* gracdient background color */
+
+.skill-bg{
+
+    background: linear-gradient(to right, #f7232380, #d45c5c80);
+}
