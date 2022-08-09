@@ -97,8 +97,123 @@ body {
 }
 
 /* gracdient background color */
-
 .skill-bg{
-
     background: linear-gradient(to right, #f7232380, #d45c5c80);
 }
+
+
+
+.bg{
+    background-image: url(./assets/images/picture-vik.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+
+}
+
+.bg:hover{
+    background-image: url(./assets/images/picture-vik.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    background-blend-mode: -webkit-screen(default);
+    z-index: 3;
+}
+
+.pro-card:hover{
+    z-index: 1;
+    box-shadow: 3px 5px 10px rgba(255, 26, 26, 0.5);
+    transition: all 0.3s ease-out;
+}
+
+.active:focus{
+    color:rgb(255, 255, 255);
+    box-shadow: 3px 5px 10px rgba(255, 26, 26, 0.5);
+    border:1px solid red !important;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.txt{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+}
+._btn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid rgb(255, 26, 26);
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+._btn:hover{
+    background-color: rgba(255, 26, 26, 0.39);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 26, 26, 0.979);
+    transition: 0.3s ease-in-out;
+}
+
+.bg-contact{
+    background-image: url(./assets/images/bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+}
+
+.center-nav {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+}
+
+.center-nav:before,
+.center-nav:after,
+.center-nav div {
+  background: #fff;
+  content: "";
+  display: block;
+  height: 6px;
+  border-radius: 3px;
+  margin: 7px 0;
+  transition: 0.5s;
+}
+.center-nav:hover:before {
+  transform: translateY(12px) rotate(135deg);
+}
+.center-nav:hover:after {
+  transform: translateY(-12px) rotate(-135deg);
+}
+.center-nav:hover div {
+  transform: scale(0);
+}
+
+@media screen and (max-width: 768px) {
+  .center-nav {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+  }
+  .nav-links{
+    display: none;
+  }
+}
+    
+@media screen and (min-width: 768px) {
+  .center-nav{
+    display: none;
+  }
+}
+    
+
+
+
