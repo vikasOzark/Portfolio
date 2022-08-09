@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Montserrat:wght@200&family=Oswald:wght@200;300&display=swap');
+
+* {
+    font-family: 'JetBrains Mono', monospace;
+}
 body {
     background-color: black !important;
 }
@@ -214,6 +219,6 @@ body {
   }
 }
     
-
-
-
+.shadow-pic{
+    box-shadow: 5px 5px 10px rgba(250, 34, 34, 0.5);
+}
