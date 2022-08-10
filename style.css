@@ -103,7 +103,8 @@ body {
 
 /* gracdient background color */
 .skill-bg{
-    background: linear-gradient(to right, #f7232380, #d45c5c80);
+    background: linear-gradient(to right, #a30a0a80, #e284fb80);
+    
 }
 
 
@@ -220,5 +221,6 @@ body {
 }
     
 .shadow-pic{
-    box-shadow: 5px 5px 10px rgba(250, 34, 34, 0.5);
+    box-shadow: 5px 5px 10px rgba(250, 34, 34, 0.459);
 }
+
