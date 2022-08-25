@@ -103,11 +103,9 @@ body {
 
 /* gracdient background color */
 .skill-bg{
-    background: linear-gradient(to right, #a30a0a80, #e284fb80);
-    
-}
-
-
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}  
 
 .bg{
     background-image: url(./assets/images/picture-vik.png);
